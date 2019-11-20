@@ -1,0 +1,18 @@
+<sq:assay-format xmlns:sq="http://seraquant.com/formats/1.0">
+   <outcome name="PSA" unit="ng/ml" range="0.25-15.00"/>
+   <measurement recommended-duration="20">
+      <area left="30" right="690" top="180" bottom="450"/>
+      <metric>signal/reference</metric>
+      <assay-lines>
+         <assay-line name="control" left="455" right="570"/>
+         <assay-line name="signal" left="130" right="260"/>
+         <assay-line name="reference" left="310" right="440"/>
+      </assay-lines>
+   </measurement>
+   <calibration min-points="5" min-samples-zero="5" min-samples-rest="3">0.0, 0.5, 1.0, 4.0, 10.0, 2.0, 7.5, 20.0, 0.25</calibration>
+   <details>
+      <marker>colloidal gold</marker>
+      <medium>citrate buffer</medium>
+   </details>
+   <signature>MCwCFC/NG3b9h+/eoi2IPfCrpWVE+qyXAhR74/QZsGRbIg1CHsFiQTB1y7Iy5A==</signature>
+</sq:assay-format>

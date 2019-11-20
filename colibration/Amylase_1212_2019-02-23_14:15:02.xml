@@ -1,0 +1,18 @@
+<ns0:assay-format xmlns:ns0="http://seraquant.com/formats/1.0">
+   <description>PSA Calibration Curve SQ201</description><created_by><operator><organization /><position /><name /><phone>+7----</phone></operator></created_by><outcome name="PSA" range="0.25-15.00" unit="ng/ml" />
+   <measurement recommended-duration="20">
+      <area bottom="450" left="30" right="690" top="180" />
+      <metric>signal/reference</metric>
+      <assay-lines>
+         <assay-line left="455" name="control" right="570" />
+         <assay-line left="130" name="signal" right="260" />
+         <assay-line left="310" name="reference" right="440" />
+      </assay-lines>
+   </measurement>
+   <calibration min-points="5" min-samples-rest="3" min-samples-zero="5">0.0, 0.5, 1.0, 4.0, 10.0, 2.0, 7.5, 20.0, 0.25</calibration>
+   <details>
+      <marker>colloidal gold</marker>
+      <medium>citrate buffer</medium>
+   </details>
+   <signature>MCwCFC/NG3b9h+/eoi2IPfCrpWVE+qyXAhR74/QZsGRbIg1CHsFiQTB1y7Iy5A==</signature>
+<calibration_data><point mean="value" reliability="value" samples-used="value" skew="value" var="value" x="value" /></calibration_data><shelf_life>..</shelf_life></ns0:assay-format>

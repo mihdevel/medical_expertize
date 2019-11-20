@@ -1,0 +1,52 @@
+<sq:calibration expiration="2014-08" xmlns:sq="http://seraquant.com/formats/1.0">
+   <description>PSA Calibration Curve SQ201</description>
+   <created-by>
+      <organization>
+         <name>ГБУЗ ТО &quot;Областное бюро судебно-медицинской экспертизы&quot;</name>
+         <department>Судебно-биологическое отделение / SeraQuant SQ-201</department>
+         <address>
+            <country>RU</country>
+            <postal-code>625023</postal-code>
+            <region>Тюменская область</region>
+            <city>Тюмень</city>
+            <line-1>ул. Котовского, 68</line-1>
+         </address>
+         <public-key>MIIBuDCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoDgYUAAoGBAMfCjc+qaIuNMS9XuivN9pcPSQIh7ArRyCNjZTKMExnsev7uvvjslkMewTjbrhaCnjF95b/eKCzI7msGhLKs+rejz6MS3UZ3wMtNZoL+MXzBKfhoY/cO510MRhmWAD5+YyJI4az4A1QQ4hleQCK0IAERXdUoTPEICOvDAVaH5Zks</public-key>
+         <signature>MCwCFAEPxJLKvserwB4AGcVGwgvMXNEoAhQhqQzDOVRXpkbNz3p7iWutmWe8bg==</signature>
+      </organization>
+      <operator>
+         <name>SERATEC GmbH</name>
+         <position>Forensic R&amp;D</position>
+         <phone>+4955150480</phone>
+      </operator>
+   </created-by>
+   <calibrated-batch>
+      <serial>F14074</serial>
+      <sq:assay-format>
+         <outcome name="PSA" unit="ng/ml" range="0.25-15.00"/>
+         <measurement recommended-duration="20">
+            <area left="30" right="690" top="180" bottom="450"/>
+            <metric>signal/reference</metric>
+            <assay-lines>
+               <assay-line name="control" left="455" right="570"/>
+               <assay-line name="signal" left="130" right="260"/>
+               <assay-line name="reference" left="310" right="440"/>
+            </assay-lines>
+         </measurement>
+         <calibration min-points="5" min-samples-zero="5" min-samples-rest="3">0.0, 0.5, 1.0, 4.0, 10.0, 2.0, 7.5, 20.0, 0.25</calibration>
+         <details>
+            <marker>colloidal gold</marker>
+            <medium>citrate buffer</medium>
+         </details>
+         <signature>MCwCFC/NG3b9h+/eoi2IPfCrpWVE+qyXAhR74/QZsGRbIg1CHsFiQTB1y7Iy5A==</signature>
+      </sq:assay-format>
+   </calibrated-batch>
+   <calibration-data>
+      <point x="0.0" mean="0.009600578251155244" var="2.468580593755253E-5" skew="-0.37003945115669656" reliability="90.43964765507575" samples-used="5"/>
+      <point x="0.5" mean="0.019022886832059938" var="2.825449828285078E-5" skew="0.0" reliability="91.45354218092044" samples-used="3"/>
+      <point x="1.0" mean="0.08324413817458168" var="7.906331841065486E-5" skew="0.0" reliability="96.3044061782311" samples-used="3"/>
+      <point x="4.0" mean="0.7375807956668328" var="0.0012524541768272736" skew="0.0" reliability="98.41056377564875" samples-used="3"/>
+      <point x="10.0" mean="1.9327868752707296" var="9.570746777408554E-4" skew="0.0" reliability="99.4013365587774" samples-used="3"/>
+   </calibration-data>
+   <signature>MC0CFGWQ0otG9FuZ0K5LZs7oIHWAmDRqAhUAlW/+YKqfrl5AAUDWxJ5liXjZLdg=</signature>
+</sq:calibration>
